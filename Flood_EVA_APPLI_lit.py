@@ -360,7 +360,7 @@ elif nav_option == "🛣️ Evacuation Network":
     
     # Display the image
     try:
-        img = Image.open('/mnt/user-data/outputs/02_3D_Evacuation_Network.png')
+        img = Image.open('02_3D_Evacuation_Network.png')
         st.image(img, caption="3D Evacuation Network with 5 Safe Zones", use_column_width=True)
     except:
         st.warning("Image not available")
@@ -574,7 +574,7 @@ elif nav_option == "📈 Evacuation Analysis":
     
     # Display the image
     try:
-        img = Image.open('/mnt/user-data/outputs/03_Evacuation_Analysis.png')
+        img = Image.open('03_Evacuation_Analysis.png')
         st.image(img, caption="Four-Chart Evacuation Analysis", use_container_width=True)
     except:
         st.warning("Image not available")
