@@ -211,7 +211,7 @@ elif nav_option == "📊 Flood Risk Surface":
     
     # Display the image
     try:
-        img = Image.open('/mnt/user-data/outputs/01_3D_Flood_Risk_Surface.png')
+        img = Image.open('01_3D_Flood_Risk_Surface.png')
         st.image(img, caption="3D Flood Risk Surface Map of India", use_column_width=True)
     except:
         st.warning("Image not available")
