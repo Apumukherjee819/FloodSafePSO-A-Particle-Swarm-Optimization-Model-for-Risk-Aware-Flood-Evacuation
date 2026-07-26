@@ -1,0 +1,11 @@
+# Streamlit Cloud installs these packages before starting the application.
+# Keep this file in the GitHub repository root or beside the deployed entrypoint.
+
+streamlit>=1.35,<2.0
+matplotlib>=3.8
+pandas>=2.1
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+seaborn>=0.13
+pillow>=10.0
